@@ -1,0 +1,63 @@
+div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.background {
+	position: absolute;
+	margin-top: 80px;
+	width: 95%;
+	z-index: 1
+}
+
+#fact {
+	display: flex;
+	justify-content: center;
+  position: fixed;
+	margin-top: 80px;
+	width: 80%;
+	font-size: 3vw;
+	z-index: 2;
+}
+
+.numbers {
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	width: 80%;
+	margin-top: 240px;
+	z-index: 2
+}
+
+.number {
+	width: 33.3%;
+}
+
+@media only screen and (max-width: 670px) {
+	.numbers {
+		margin-top: 180px;
+	}
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+	.numbers {
+		margin-top: 150px;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.numbers {
+		margin-top: 130px;
+	}
+}
+
+@media only screen and (max-width: 200px) {
+	.numbers {
+		margin-top: 120px;
+	}
+}
